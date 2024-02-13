@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+header{
+    height: 6rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name main article{
+    font-size: 14px;
+}
+
+
+.content section{
+    display: inline-flex;
+}
+
+.a-tag ul{
+    display: inline-flex;
+    margin-left: 12rem;
+    gap: 3rem;
+}
+
+.a-tag ul a{
+    list-style:none;
+    color: #000;
+}
+
+
+.icon{
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
+.icon1{
+    display: none;
+}
+
+
+.media-a-tag{
+    
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .a-tag{
+        display: none;
+    } 
+
+    .icon{
+        display: none;
+    }
+
+    .icon1{
+        display: block;
+        margin-left: 10rem;
+    }
+
+    .media-a-tag{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        position: fixed;
+        width: 10rem;
+        display: block;
+        height: 100%;
+        z-index: 30;
+        margin-left: -12rem;
+        transition: 900ms all ease;
+    }
+
+    .slideOut{
+        margin-left: 0rem;
+        transition: 900ms all ease;
+        
+    }
+
+
+    .media-a-tag ul{
+        margin-left: 3rem;
+        margin-top: 8rem;
+    }
+
+    .media-a-tag ul a{
+        list-style: none;
+        color: #000;
+        
+    }
+
+    .media-a-tag ul li{
+        margin-top: 1.5rem;
+    }
+
+.media-a-tag ul a:first-child{
+    color: darkorange;
+    border-left: solid 2px darkorange;
+    margin-left: -4rem;
+   
+}
+
+}
+
+.background{
+    width: 100%;
+
+    height: 45rem;
+    
+
+
+}
+
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.vail{
+    position: absolute;
+    background-color: rgb( 0, 0, 0, 0.7);
+    height: 45rem;
+    width: 85.3rem;
+    padding-top: 12rem;
+}
+
+.vail h2{
+    font-size: 47px;
+    color: darkorange;
+}
+
+.vail p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+
+.vail button{
+    width: 12rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: solid #fff 2px;
+}
+
+.vail button a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.vail button:last-child{
+    background-color: darkorange;
+    border: none;
+    margin-left: 1rem;
+    color: #000;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .background{
+        height: 30rem;
+    }
+
+    .vail{
+       
+        height: 30rem;
+        width: 358px;
+        padding-top: 10rem;
+    }
+
+
+    .vail h2{
+        font-size:25px;
+        color: darkorange;
+    }
+
+
+    .vail p{
+        font-size: 17px;
+        font-weight: bold;
+        color: #ccc;
+    }
+    .vail button:last-child{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+nav{
+  background-color: grey;
+  height: 7rem;
+}
+
+.background{
+    background-color: grey;
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+
+.content section{
+ padding-top: 4rem;
+ padding-left: 9rem;
+ display: inline-flex;
+ gap: 4rem;
+}
+
+.circle{
+    height: 14rem;
+    width: 14rem;
+    background-color: grey;
+    border-radius: 100%;
+    
+}
+
+.Square{
+    border-radius: 1px;
+}
+
+@media screen and (max-width:768px) {
+   
+
+   
+
+    .content{
+        background-color: transparent;
+      
+    }
+
+    .content section{
+        display: inline-grid;
+        padding-left: 4rem;
+        background-color: transparent;
+    }
+
+  
+}
+
+
+footer{
+    background-color: grey;
+    height: 7rem;
+    margin-top: 1rem;
+  }
+ */
